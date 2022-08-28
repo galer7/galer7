@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Gabriel</h1>
-<h4 align="center">Software engineer with a deep interest in distributed systems and a keen eye for detail. Always looking forward to staying up-to-date on latest web development tools.<br/>
+<h4 align="center">Software engineer with a deep interest in distributed systems and a keen eye for detail. Always looking forward to staying up-to-date on latest web development tools.</h4>
 
 - 🔭 I’m currently working on [WEAT](https://weat.galer7.com)
 
