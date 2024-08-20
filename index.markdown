@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Home
 ---
 
 # Welcome to Gabriel Galer's Portfolio
@@ -21,4 +22,11 @@ I'm a Software Engineer specializing in distributed systems and web development.
 </div>
 {% endfor %}
 
-<a href="/projects" class="btn">View all projects</a>
+## Recent Posts
+
+{% for post in site.posts limit:3 %}
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+{% endfor %}
+
+[View all posts](/posts)
