@@ -1,0 +1,22 @@
+- name: Multi-protocol Adapter Service
+  description: Developed and deployed a production-ready service for migrating satellite service customers using AWS API Gateway.
+  technologies:
+    - TypeScript
+    - Jest
+    - AWS Cloud
+    - AWS CDK
+
+- name: E-Commerce Microservices
+  description: Developed 10+ microservices for an E-Commerce platform, including customer orders and returns functionalities.
+  technologies:
+    - Node.js
+    - Postgres
+    - GCP
+    - Go
+    - React
+
+- name: Document Detection and Stitching
+  description: Created a Python script using OpenCV for document detection, cropping, and stitching, decreasing customer deal closure time by 15%.
+  technologies:
+    - Python
+    - OpenCV

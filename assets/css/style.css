@@ -1,0 +1,255 @@
+@import "{{ site.theme }}";
+
+/* Custom styles */
+
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --text-color: #333;
+  --background-color: #f5f5f5;
+  --header-background: #ffffff;
+  --footer-background: #2c3e50;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+.site-header {
+  background-color: var(--header-background);
+  border-top: 5px solid var(--primary-color);
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 55.95px;
+  position: relative;
+}
+
+.site-title,
+.site-title:visited {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 54px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+  color: var(--primary-color);
+
+  &:hover {
+    text-decoration: none;
+    color: var(--secondary-color);
+  }
+}
+
+.site-nav {
+  float: right;
+  line-height: 54px;
+
+  .nav-trigger {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: var(--text-color);
+    line-height: 1.5;
+    margin-left: 20px;
+
+    &:hover {
+      color: var(--primary-color);
+    }
+  }
+}
+
+/* Footer styles */
+.site-footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 30px 0;
+  background-color: var(--footer-background);
+  color: #ffffff;
+}
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.contact-list,
+.social-media-list {
+  list-style: disc; /* Add bullets */
+  margin-left: 20px; /* Add a small left margin for the bullets */
+  padding-left: 0; /* Remove default padding */
+}
+
+.contact-list li,
+.social-media-list li {
+  margin-bottom: 5px; /* Add some space between list items */
+}
+
+.footer-col-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+}
+
+.footer-col {
+  flex: 1;
+  padding-left: 15px;
+}
+
+.footer-col a {
+  color: #ffffff;
+
+  &:hover {
+    color: var(--secondary-color);
+  }
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .site-nav {
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    background-color: var(--header-background);
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    text-align: right;
+
+    label[for="nav-trigger"] {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 36px;
+      z-index: 2;
+      cursor: pointer;
+    }
+
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+
+      > svg path {
+        fill: var(--text-color);
+      }
+    }
+
+    input ~ .trigger {
+      clear: both;
+      display: none;
+    }
+
+    input:checked ~ .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .page-link {
+      display: block;
+      padding: 5px 10px;
+      margin-left: 20px;
+
+      &:not(:last-child) {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .footer-col {
+    flex: 0 0 100%;
+  }
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.site-header {
+  border-top: 5px solid var(--primary-color);
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 55.95px;
+  position: relative;
+  background-color: white;
+}
+
+.site-title,
+.site-title:visited {
+  color: var(--primary-color);
+}
+
+.site-nav .page-link {
+  color: var(--text-color);
+
+  &:hover {
+    color: var(--primary-color);
+  }
+}
+
+.post-link {
+  color: var(--primary-color);
+
+  &:hover {
+    color: var(--secondary-color);
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: var(--secondary-color);
+  }
+}
+
+.project {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project h2 {
+  color: var(--primary-color);
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tech-tag {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.8em;
+}

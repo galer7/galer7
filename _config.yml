@@ -1,0 +1,17 @@
+title: Gabriel Galer
+email: gabriel.galer@protonmail.com
+description: >-
+  Software Engineer with expertise in distributed systems and web development.
+baseurl: ""
+url: "https://galer.engineer"
+github_username: galer7
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Custom collections
+collections:
+  projects:
+    output: true
