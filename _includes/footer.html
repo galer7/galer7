@@ -9,8 +9,16 @@
         <h2 class="footer-heading">Contact</h2>
         <ul class="contact-list">
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          <li><a href="https://github.com/{{ site.github_username }}" target="_blank">GitHub</a></li>
-          <li><a href="{{ site.url }}">{{ site.url | remove: "https://" }}</a></li>
+          <li>
+            <a
+              href="https://github.com/{{ site.github_username }}"
+              target="_blank"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a href="{{ site.url }}">{{ site.url | remove: "https://" }}</a>
+          </li>
         </ul>
       </div>
     </div>
