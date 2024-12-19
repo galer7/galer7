@@ -7,7 +7,7 @@ permalink: /resume/
 # Gabriel Galer
 Software Engineer
 
-Email: gabriel.galer@protonmail.com | Phone: +40 727 331 163 | GitHub: [github.com/galer7](https://github.com/galer7) | Website: [galer7.com](https://galer7.com)
+Email: gabriel.galer@protonmail.com | Phone: +40 727 331 163 | GitHub: [github.com/galer7](https://github.com/galer7) | Website: [galer.engineer](https://galer.engineer) | [Download PDF](/assets/docs/gabriel_galer_resume.pdf)
 
 ## Summary
 
